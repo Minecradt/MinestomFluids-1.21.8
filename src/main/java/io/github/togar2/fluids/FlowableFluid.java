@@ -294,7 +294,7 @@ public abstract class FlowableFluid extends Fluid {
 				}
 			}
 
-			instance.placeBlock(new BlockHandler.Placement(newState.block(), instance, point));
+			instance.placeBlock(new BlockHandler.Placement(newState.block(), currentBlock,instance, point));
 		}
 	}
 
